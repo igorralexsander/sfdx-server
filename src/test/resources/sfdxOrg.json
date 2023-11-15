@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "id": "00DDO0000008gZZ2AY",
+    "apiVersion": "59.0",
+    "accessToken": "00DDO0000008gZZ!ARMAQNNOX0x3_Ua2uKaPwEv15QfZV3i0rPYxaSrQeEt4HAOHs4KjNhmLxMt3UBSvTN_jn99_PoGaELCz1UDWg1gkwAgDC7ux",
+    "instanceUrl": "https://itausegurosmanufatura--my-awesome-org-01.sandbox.my.salesforce.com",
+    "username": "igor.parastchuk@itausegurosmanufatura.my-awesome-org-01",
+    "clientId": "PlatformCLI",
+    "connectedStatus": "Connected",
+    "alias": "my-awesome-org-01"
+  },
+  "warnings": [
+    "This command will expose sensitive information that allows for subsequent activity using your current authenticated session.\nSharing this information is equivalent to logging someone in under the current credential, resulting in unintended access and escalation of privilege.\nFor additional information, please review the authorization section of the https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm."
+  ]
+}

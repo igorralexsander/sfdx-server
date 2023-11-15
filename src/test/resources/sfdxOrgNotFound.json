@@ -1,0 +1,11 @@
+{
+  "code": 1,
+  "context": "OrgDisplayCommand",
+  "commandName": "OrgDisplayCommand",
+  "message": "Parsing --target-org \n\tNo authorization information found for my-awesome-org-12.\nSee more help with --help",
+  "name": "NamedOrgNotFoundError",
+  "status": 1,
+  "stack": "NamedOrgNotFoundError: Parsing --target-org \n\tNo authorization information found for my-awesome-org-12.\nSee more help with --help\n    at Messages.createError (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@salesforce/core/lib/messages.js:393:16)\n    at AuthInfo.init (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@salesforce/core/lib/org/authInfo.js:599:28)\n    at async AuthInfo.create (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@salesforce/kit/lib/creatable.js:57:9)\n    at async Org.init (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@salesforce/core/lib/org/org.js:777:27)\n    at async Org.create (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@salesforce/kit/lib/creatable.js:57:9)\n    at async maybeGetOrg (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@salesforce/sf-plugins-core/lib/flags/orgFlags.js:16:16)\n    at async getOrgOrThrow (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@salesforce/sf-plugins-core/lib/flags/orgFlags.js:51:17)\n    at async parseFlagOrThrowError (/usr/local/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/parser/parse.js:231:24)\n    at async /usr/local/lib/node_modules/@salesforce/cli/node_modules/@oclif/core/lib/parser/parse.js:348:88\n    at async Promise.all (index 1)",
+  "exitCode": 1,
+  "warnings": []
+}
